@@ -34,3 +34,5 @@ If you want to use stow, clone this repository into `~/qdot` and do `./qstow PAC
 ### ZSH
 
 - zsh
+- exa
+- starship

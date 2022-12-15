@@ -14,3 +14,9 @@ alias gr='git remote'
 alias grs='git remote show'
 alias glo='git log --oneline'
 alias glol='git log --graph --oneline --decorate'
+
+if command -v exa >/dev/null; then
+  alias l='exa -F --icons'
+  alias ll='exa -alF --icons'
+  alias la='exa -aF --icons'
+fi
