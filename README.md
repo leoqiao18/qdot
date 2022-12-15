@@ -1,25 +1,36 @@
-## Leo's Dotfiles
+# Leo's Dotfiles
 
 This repo uses [stow][] to manage the symlinks, but you don't **have** to --
 you can also just individually symlink the contents of each directory directly
 into your home.
 
-If you want to use stow, clone this repository into `~/qdot` and do
+If you want to use stow, clone this repository into `~/qdot` and do `./qstow PACKAGE` for any package you would like to install.
 
-```sh
-cd ~/qdot
-stow --restow */
-```
+## Requirements
 
-stow will automatically symlink the contents of each "package" into the parent
-directory from where it is invoked (i.e. your home directory), that's why it
-is important to clone this repository directly into your home directory. If
-you cloned the repository somewhere else, you can use the `--target`
-parameter.
+- GNU Stow
 
-```sh
-cd ~/path/to/dotfiles
-stow --target=$HOME --restow */
-```
+### LunarVim
 
-[stow]: https://www.gnu.org/software/stow/
+- neovim (>= 0.8.0)
+- node, npm: install with `nvm`
+- git, make
+- pip, python
+- cargo: install with `rustup`
+- LunarVim
+
+### Starship
+
+- starship
+
+### Kitty
+
+- kitty
+
+### tmux
+
+- tmux
+
+### ZSH
+
+- zsh
