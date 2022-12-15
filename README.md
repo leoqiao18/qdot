@@ -37,3 +37,27 @@ If you want to use stow, clone this repository into `~/qdot` and do `./qstow PAC
 - exa
 - starship
 - fzf: install by `git clone` and call install script
+
+After installation, add the following lines:
+- in `$HOME/.zshenv`, add
+
+```zsh
+#!/usr/bin/env zsh
+
+# XDG
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_DATA_HOME=$XDG_CONFIG_HOME/local/share
+export XDG_CACHE_HOME=$XDG_CONFIG_HOME/cache
+
+# zsh
+export ZDOTDIR="$XDG_CONFIG_HOME/zsh"
+
+# load my zshenv
+source $ZDOTDIR/zshenv
+```
+
+- in `$ZDOTDIR/.zshrc`, add
+
+```zsh
+source $ZDOTDIR/zshrc
+```
