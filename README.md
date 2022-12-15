@@ -8,6 +8,9 @@ If you want to use stow, clone this repository into `~/qdot` and do `./qstow PAC
 
 ## Requirements
 
+The `zsh` package has some git submodules. When cloning this repo, use `git clone --recurse-submodules` to clone all the submodules; or, equivalently, call `git submodule init` and `git submodule update` after cloning.
+
+Requirements:
 - GNU Stow
 
 ### LunarVim
