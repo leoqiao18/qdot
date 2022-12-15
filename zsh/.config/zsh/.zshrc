@@ -88,6 +88,15 @@ bindkey -M vicmd '^a' incarg
 
 source $ZDOTDIR/completion.zsh
 
+# +---------+
+# | BINDING |
+# +---------+
+
+# edit current command line with vim (vim-mode, then CTRL-v)
+autoload -Uz edit-command-line
+zle -N edit-command-line
+bindkey -M vicmd '^v' edit-command-line
+
 # +--------------+
 # | LOCAL .zshrc |
 # +--------------+
