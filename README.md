@@ -36,3 +36,4 @@ If you want to use stow, clone this repository into `~/qdot` and do `./qstow PAC
 - zsh
 - exa
 - starship
+- fzf: install by `git clone` and call install script
