@@ -3,3 +3,7 @@
 
 # Inserts a blank line between shell prompts
 add_newline = true
+
+[directory]
+truncation_length = 0  # don't truncate path
+truncate_to_repo = false  # don't truncate to git repo root
