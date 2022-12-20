@@ -3,3 +3,9 @@
 	email = qiaofeitong@hotmail.com
 [init]
 	defaultBranch = main
+[core]
+  editor = nvim
+[pull]
+  rebase = true
+[push]
+  default = current
