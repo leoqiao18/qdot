@@ -40,7 +40,7 @@ configs.setup({
 	},
 	indent = {
     enable = true,
-		disable = { "" },
+		disable = { "python", "yaml" },
   },
 	context_commentstring = {
 		enable = true,

@@ -59,10 +59,15 @@ return packer.startup(function(use)
   use { "lewis6991/impatient.nvim" }
   use { "lukas-reineke/indent-blankline.nvim" }
   use { "goolord/alpha-nvim" }
+  use { "folke/which-key.nvim" }
 
   -- Colorschemes
   use { "folke/tokyonight.nvim" }
   use { "lunarvim/darkplus.nvim" }
+  use { "navarasu/onedark.nvim" }
+  use { "projekt0n/github-nvim-theme" }
+  use { 'shaunsingh/nord.nvim' }
+  use { 'EdenEast/nightfox.nvim' }
 
   -- cmp plugins
   use { "hrsh7th/nvim-cmp" } -- The completion plugin
@@ -89,6 +94,7 @@ return packer.startup(function(use)
 
   -- Treesitter
   use { "nvim-treesitter/nvim-treesitter" }
+
   -- Git
   use { "lewis6991/gitsigns.nvim" }
 
