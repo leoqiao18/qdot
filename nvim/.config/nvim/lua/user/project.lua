@@ -18,7 +18,7 @@ project.setup({
 
   -- When set to false, you will get a message when project.nvim changes your
   -- directory.
-  silent_chdir = true,
+  silent_chdir = false,
 })
 
 local tele_status_ok, telescope = pcall(require, "telescope")
